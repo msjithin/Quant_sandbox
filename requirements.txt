@@ -24,3 +24,5 @@ holidays
 pandas_market_calendars
 QuantStats==0.0.62
 pyfolio-reloaded==0.9.5
+PyPortfolioOpt
+arch
