@@ -1,0 +1,4 @@
+               
+Option SE   : 0.0864508
+Option value: 5.52097
+Time taken: 0.125

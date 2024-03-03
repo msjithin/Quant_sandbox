@@ -1,0 +1,25 @@
+S0			100
+r			0.05  
+sigma			0.2
+        
+kappa			0.0
+
+N			100
+M			10000
+Tmax			1
+    
+lambda			0.05
+eta			1.0
+nu			0.2
+
+prune			8.0
+	
+ApplicationBase		v
+ProcessBase		g
+WienerBase		p
+ValuationMethodBase	l
+	
+AccumulatorBase		p
+BranchesBase		7
+SliceBase		p
+

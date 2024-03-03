@@ -1,0 +1,10 @@
+Begin	c		
+ID	24
+X	100
+T	1
+End spec
+Begin	p		
+ID	25
+X	100
+T	0.5
+End spec
