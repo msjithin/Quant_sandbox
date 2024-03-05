@@ -1,25 +1,24 @@
 //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-//  Output.h
+//  OptionMCutility.h
 //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-#ifndef OutputH
-#define OutputH
+#ifndef OptionMCutilityH
+#define OptionMCutilityH
 //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-
 
 #include <string>
+#include "rv_library.h"
 
 //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
-//  class Output 
+//  namespace Option_MC_utility
 //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
-class Output
+namespace OptionMCutility
 {
-    public:
-        //  interface stuff
+    double next_S(const double &path_S, const double &drift, const double &sqrt);
+    double ComputePayoff(const double &path_S, const double &X);
+}
 
-    private:
-        //  implementation stuff
-};
+namespace mc = OptionMCutility;    //alias
 
 //XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 #endif
