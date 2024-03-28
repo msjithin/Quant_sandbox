@@ -39,7 +39,7 @@ int main(int argc, char *argv[])
 
     for(long j = 1; j <= M; ++j)            // For each path
     {
-        ut::OutputCounter(j, M, 50000);
+        ut::OutputCounter(j, M, 5000);
         
         double path_S = S_0;                // Stock price at a point in the 
         
@@ -55,7 +55,7 @@ int main(int argc, char *argv[])
     }
     
     discount = std::exp(-r*T);
-    
+        
     c = discount*acc_vals/M;
     se = discount*std::sqrt(acc_squs - acc_vals*acc_vals/M)/M;
     
